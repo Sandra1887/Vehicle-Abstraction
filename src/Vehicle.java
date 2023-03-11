@@ -30,7 +30,7 @@ abstract class Vehicle {
         //return getFuelConsumption() * 19.42f;
     @Override
     public String toString() {
-        return brand + " " + model + "\nMax speed: " + speed + "\nYear: " + year + "\nFuel Consumption (l/10mil) : " + fuelConsumption;
+        return brand + " " + model + "\nMax speed: " + speed + "km/h\nYear: " + year + "\nFuel Consumption (l/10mile): " + fuelConsumption;
     }
 }
 class Car extends Vehicle {
